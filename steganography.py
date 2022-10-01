@@ -3,6 +3,7 @@ from tkinter import messagebox
 from argparse import FileType
 from stegano import lsb
 from tkinter.filedialog import *
+from file import main
 from PIL import ImageTk,Image
 import requests
 from  stegano.lsbset import generators
